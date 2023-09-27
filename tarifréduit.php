@@ -8,7 +8,7 @@
 	$NB_A = fgets( STDIN ) ;
 	$Q = $NB_A / 7 ;
 	$q_entier = intval($Q) ;
-	$R = 7 / $q_entier ;
+	$R = 7 / $q_entier + 1 ;
 	$r_entier = intval ($R) ;
 	$TOTAL = ($q_entier * 7)* 15 + $r_entier * 18 ;
 	
